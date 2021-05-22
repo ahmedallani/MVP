@@ -10,4 +10,4 @@ db.once("open", function () {
   console.log("We are connected to MongoDB");
 });
 console.log(db,"db")
-module.exports = db
+module.exports = mongoose
